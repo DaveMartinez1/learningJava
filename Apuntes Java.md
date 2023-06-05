@@ -205,6 +205,16 @@ int i = 1;
 
 while (i<10){ // Mientras que i(1) sea menor que 10
 	System.out.print(i+", "); // Imprime i en pantalla y separalo por coma
-	i+=2; // Incrementa i de dos en dos
+	i+=2; // Incrementa i de dos en dos3
 }
+```
+
+### Bucle DO WHILE
+DO WHILE primero ejecuta las instrucciones y después comprueba la condición
+
+Estructura básica del ciclo DO WHILE en Java:
+```java
+do{
+	instrucciones
+} while(condicion);
 ```
