@@ -286,3 +286,28 @@ for (int i=0; i<numeros.length; i++){
 	
 }
 ```
+
+### Arreglos bidimensionales (matrices)
+Es un arreglo que tiene filas y columnas, necesita 2 indices para ubicar un elemento, ejemplo:
+<img src="https://i.ytimg.com/vi/B46f8nOnNbc/hqdefault.jpg" align="center">
+
+##### Matrices dinámicas
+Es similar al los vectores dinámicos pues no depende de indices ya que se asigna automáticamente mediante el uso de estructuras repetitivas. Ejemplo:
+```java
+int filas = 3;
+int columnas = 3;
+int contador =  1;
+
+int numeros[][] = new int [filas][columnas];
+
+for (int j = 0; j<filas; j++){
+	for (int i = 0; i<columnas; i++){
+		numeros[j][i] = contador;
+		contador++;
+		System.out.print("[" + numeros[j][i] + "]");
+	}
+	System.out.println("");
+}
+```
+
+1

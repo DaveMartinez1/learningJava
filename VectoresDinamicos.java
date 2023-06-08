@@ -6,7 +6,7 @@ public class VectoresDinamicos{
     int longitud = 0;
     Scanner userInput = new Scanner(System.in);
     
-    System.out.print("¿Cuanntos numeros deseas ingresar?:");
+    System.out.print("?Cuanntos numeros deseas ingresar?:");
     longitud = userInput.nextInt();
     
     int numeros[] = new int[longitud];

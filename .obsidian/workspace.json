@@ -148,15 +148,16 @@
   },
   "active": "ef982b82fb37a28c",
   "lastOpenFiles": [
+    "MatricesDinamicas.class",
+    "MatricesDinamicas.java",
+    "Matrices.class",
+    "Matrices.java",
     "VectoresDinamicos.class",
     "VectoresDinamicos.java",
     "Vectores.class",
     "Vectores.java",
     "MetodosLongitud.class",
     "MetodosLongitud.java",
-    "LoginWithEquals.class",
-    "LoginWithEquals.java",
-    "MetodoEquals.class",
-    "MetodoEquals.java"
+    "LoginWithEquals.class"
   ]
 }
