@@ -218,3 +218,46 @@ do{
 	instrucciones
 } while(condicion);
 ```
+
+
+### Método equals()
+
+Sirve para comparar valores en condicionales y bucles por ejemplo:
+```java
+int num = 17;
+if (num.equals(17)){
+	System.out.println("Hola Mundo");
+}
+```
+
+### Metodo length & substring
+
+El método `length` indica cuantos caracteres tiene una cadena, por ejemplo:
+ ```java
+ String text = "ABCDEFGHIJKLMNÑOPQRSTUVWXYZ";
+
+ System.out.println(text.length());
+ ```
+
+El método `substring` permite obtener una parte especifica de la cadena de caracteres, `substring(desde, hasta);` por ejemplo:
+```java
+String camelCase = "ThisIsACamelCaseText";
+
+System.out.print(camelCase.subtring(7, 16));
+
+// output: CamelCase
+```
+
+### Arreglos unidimensionales
+Un arreglo es una estructurad e datos que almacena bajo el mismo nombre a una colección de datos.
+
+Los arreglos que caracterizan por:
+* Almacenar los elementos en espacios contiguos de memoria.
+* Tienen un mismo nombre de variable que representa a todos los elementos.
+* Los elementos son asignados a una posición dentro del vector.
+* Los arreglos trabajan en conjunto con índices que especifican la posición de cada elemento dentro del arreglo.
+
+Tipos de arreglos:
+
+* Arreglos unidimensionales. (Vectores)
+* Arreglos bidimensionales. (Matrices)

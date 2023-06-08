@@ -11,8 +11,12 @@
             "id": "ef982b82fb37a28c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Apuntes Java.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Apuntes Java.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Apuntes Java.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Apuntes Java.md"
+              }
             }
           }
         ]
@@ -139,5 +147,12 @@
     }
   },
   "active": "ef982b82fb37a28c",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "MetodosLongitud.class",
+    "MetodosLongitud.java",
+    "LoginWithEquals.class",
+    "LoginWithEquals.java",
+    "MetodoEquals.class",
+    "MetodoEquals.java"
+  ]
 }
