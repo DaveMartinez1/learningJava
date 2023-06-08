@@ -261,3 +261,28 @@ Tipos de arreglos:
 
 * Arreglos unidimensionales. (Vectores)
 * Arreglos bidimensionales. (Matrices)
+
+Sintaxis para programar un vector:
+```java
+int nombre[] = new int[5];
+```
+
+El indice tiene dos tipos de comportamientos:
+* Comportamiento estático: No es necesario declararlo solo basta con indicar el nombre y la posición del vector, no se moverá de la posición al menos que se lo indique mediante una linea de código, ejemplo:
+
+```java
+numeros[2]=8; // Agrega el numero 8 en la posicion 2
+
+System.out.println(numeros[2]); // Imprime en pantalla la segunda posicion del vector
+```
+
+* Comportamiento dinámico: No requiere indicar al indice la posición debe de recorrer ya que lo hace de manera automática, lo cual lograremos con una estructura repetitiva `for`, el valor por defecto de un vector es `null`, ejemplo:
+```java
+int numeros[] = new int[5];
+
+for (int i=0; i<numeros.length; i++){
+
+	numeros[i]=i+10;
+	
+}
+```
